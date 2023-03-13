@@ -180,10 +180,23 @@ body {
 }
 /* =======================/HEADER=======================*/
 /* =======================HERO=======================*/
-.hero {    
-    padding-top: 188px;
+.svg {
+    padding: 24px 100px;
+    background: #F4F4FD;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+}
+.hero {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;     
+    background-image: linear-gradient(rgba(46,47,66,0.7), rgba(46,47,66,0.7)), url(../images/people-office.jpg);
+    background-position: center;
+    background-repeat: no-repeat;          
+    padding-top: 188px;    
     padding-bottom: 188px; 
-    background: #2E2F42;
+    background-color: #2E2F42;     
 }
 .title-hero {    
     margin-right: auto;
@@ -215,6 +228,21 @@ body {
 .img-list {
     display: flex;
     gap: 24px;
+}
+.social-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.social-list-link {
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4D5AE5;
 }
 .team {   
     background-color: #F4F4FD;
