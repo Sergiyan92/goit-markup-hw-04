@@ -78,6 +78,7 @@ body {
 .btn-navigation:focus {
     background-color: #404BBF;
     color: #FFFFFF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .caption {      
     margin-bottom: 72px;
@@ -229,10 +230,11 @@ body {
     display: flex;
     gap: 24px;
 }
+
 .social-list {
     display: flex;
-    justify-content: center;
-    gap: 24px;
+    justify-content: center;    
+    gap: 16px;
 }
 .social-list-link {
     margin-top: 8px;
@@ -243,6 +245,17 @@ body {
     height: 40px;
     border-radius: 50%;
     background-color: #4D5AE5;
+}
+.social-list-icon {
+    fill: #FFFFFF;
+}
+
+.customers-icon {
+    fill: rgba(175, 177, 184, 1);
+}
+.customers-icon:hover,
+.customers-icon:focus{
+    fill: #404BBF;
 }
 .team {   
     background-color: #F4F4FD;
@@ -261,11 +274,63 @@ body {
     gap: 24px;  
 }
 .avatar {   
-     background-color: #fff;     
-     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+     background-color: #fff;    
      border-radius: 0px 0px 4px 4px;
-    }
-.footer {    
+}
+.avatar:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.customers-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+    
+.customers {
+    display: flex;
+    gap: 24px;
+}
+    
+.customers-list {
+    width: 168px;
+    height: 88px;
+    border: 1px solid rgba(142, 143, 153, 1);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* =========================FOOTER=============== */
+.footer-container {
+    display: flex;
+}
+.title-dark {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.social-footer {
+    margin-left: 120px;
+}
+
+.social-link-dark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;    
+    background-color: #F4F4FD;
+    opacity: 0.1;    
+}
+.social-list-icon-dark {
+    fill: tomato;
+}
+.social-list-item-dark {
+    padding-top: 16px;    
+}
+.footer { 
     left: 0px;
     background: #2E2F42;    
     gap: 24px;
@@ -296,7 +361,11 @@ body {
 .apply {
     display: flex;
     gap: 48px 24px;    
-    flex-wrap: wrap;    
+    flex-wrap: wrap;        
+}
+.apply-item:hover,
+.apply-item:focus {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .cards {
     padding-left: 16px;
