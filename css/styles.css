@@ -289,9 +289,9 @@ body {
     justify-content: center;
     align-items: center;
 }
-.customers-link:hover,
-.customers-link:focus {
-    color: #404BBF;
+.customers-list:hover,
+.customers-list:focus {
+    border: 1px solid #404BBF;
 }
 /* =========================FOOTER=============== */
 .footer-container {
