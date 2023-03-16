@@ -276,14 +276,10 @@ body {
 .customers-icon {
     fill: rgba(175, 177, 184, 1);
 }
-
-.customers-link:hover {
-    color: #404bbf;
-}
 .customers-link:hover .customers-icon {
     fill: #404BBF;
 }
-.customers-list {
+.customers-link {
     width: 168px;
     height: 88px;
     border: 1px solid rgba(142, 143, 153, 1);
@@ -292,8 +288,8 @@ body {
     justify-content: center;
     align-items: center;
 }
-.customers-list:hover,
-.customers-list:focus {
+.customers-link:hover,
+.customers-link:focus {
     border: 1px solid #404BBF;
 }
 /* =========================FOOTER=============== */
